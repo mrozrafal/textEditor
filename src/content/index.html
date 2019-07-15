@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -11,15 +11,17 @@
 
 <body>
   <div class="editor">
-    <h1 class="editor__header">Edytor tekstu</h1>
-    <h3 class="editor__information">Wprowadź tekst a następnie go zapisz</h3>
+    <h1 class="editor__header">Text editior</h1>
+    <h3 class="editor__information">Type your text and save it!</h3>
     <form class="editor__form">
-      <textarea class="editor__area">
+      <textarea class="editor__area editor__area--js">
 
     </textarea>
-      <div class="buttons">
-        <button>zapisz</button>
-        <button>wczytaj</button>
+      <div class="editor__buttons">
+        <button class="editor__buttons editor__buttons-save editor__buttons-save--js">save</button>
+        <button class="editor__buttons editor__buttons-load editor__buttons-load--js">load</button>
+        
+
       </div>
     </form>
   </div>

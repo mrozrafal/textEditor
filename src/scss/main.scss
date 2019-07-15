@@ -1,16 +1,73 @@
 @import "_normalize";
 @import "_variables";
 
-
 html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
   color: $yellow;
   background: $violet;
+}
+.editor {
+  display: flex;
+  flex-direction: column;
+  max-width: 738px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+
+  position: relative;
+
+  &__header {
+    justify-content: center;
+    position: auto;
+  }
+  &__information {
+    text-align: center;
+    padding-bottom: 16px;
+  }
+  &__form {
+  }
+  &__area {
+    border-radius: 12px;
+    min-width: 700px;
+    min-height: 350px;
+    @media (max-width: 640px) {
+      min-width: 320px;
+      min-height: 128px;
+      
+    }
+  }
+  &__buttons {
+    position: relative;
+    text-align: right;
+    margin-top: 4px;
+    border-radius: 6px;
+    height: 32px;
+    
+
+   
+    
+
+    &-save {
+      margin-right: 4px;
+      text-align: center;
+      padding: 0 20px;
+      
+    }
+    &-load {
+      margin-left: 4px;
+      text-align: center;
+      padding: 0 20px;
+
+    }
+  }
 }

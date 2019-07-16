@@ -40,9 +40,11 @@ body {
     border-radius: 12px;
     min-width: 700px;
     min-height: 350px;
+    padding:8px;
     @media (max-width: 640px) {
       min-width: 320px;
       min-height: 128px;
+     
       
     }
   }

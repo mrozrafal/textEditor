@@ -16,7 +16,7 @@ const load =  document.querySelector('.editor__buttons-load--js');
 
 
 save.addEventListener('click' , (e) =>{
-    
+    e.preventDefault();
     localStorage.setItem('save', editorArea.value);
 })
 
@@ -36,6 +36,7 @@ if(localStorage.getItem('save')){
 
 
 load.addEventListener('click', (e) =>{
+    e.preventDefault();
     editorArea.value = localStorage.getItem('save');
     
     

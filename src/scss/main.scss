@@ -65,13 +65,22 @@ body {
       margin-right: 4px;
       text-align: center;
       padding: 0 20px;
+      background: #fff;
+      transition: background .4s linear .2s;
+      &:hover{
+        background:grey;
+      }
       
     }
     &-load {
       margin-left: 4px;
       text-align: center;
       padding: 0 20px;
-
+      background: #fff;
+      transition: background .4s linear .2s;
+     &:hover{
+       background:grey;
+     }
     }
   }
 }

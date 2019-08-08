@@ -1,7 +1,7 @@
 ![textEditor](src/assets/img/cover.png)
 # TextEditor
-with saving option
-it can be your notepad
+
+>Use it as a notepad, diary, or whatever you want ☺️
 ## used technologies:
 * html
 * css

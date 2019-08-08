@@ -1,9 +1,8 @@
-# wtf-gulp-starter
-
-`npm install -g gulp-cli`
-
-`npm install`
-
-`gulp`
-
-To publish your page using github pages use `npm run deploy`
+![textEditor](src/assets/img/cover.png)
+# TextEditor
+with saving option
+it can be your notepad
+## used technologies:
+* html
+* css
+* JS local Storage
